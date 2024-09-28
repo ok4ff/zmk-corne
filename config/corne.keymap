@@ -64,7 +64,7 @@
         function {
             bindings = <
 &kp ESC     &kp F1             &kp F2           &kp F3      &kp F4     &kp F5          &kp KP_NUMLOCK  &trans             &trans  &trans  &kp MINUS  &kp BACKSPACE
-&kp LSHIFT  &kp F6             &kp F7           &kp F8      &kp F9     &kp F10         &kp SLASH       &trans             &trans  &trans  &kp PLUS   &kp RSHIFT
+&kp LSHIFT  &kp F6             &kp F7           &kp F8      &kp F9     &kp F10         &kp SLASH       &kp K_POWER        &trans  &trans  &kp PLUS   &kp RSHIFT
 &kp LCTRL   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp F11    &kp F12         &kp ASTERISK    &kp RIGHT_BRACKET  &trans  &trans  &kp ENTER  &kp RCTRL
                                                 &kp LGUI    &kp SPACE  &kp LEFT_ALT    &kp ENTER       &kp BACKSPACE      &trans
             >;
