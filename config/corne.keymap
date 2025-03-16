@@ -57,6 +57,48 @@
             timeout-ms = <20>;
             layers = <0>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <8 7>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
+
+        dub_quots {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <16 15>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <3 2>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
+
+        sin_quots {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <19 20>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <8 9>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <3 4>;
+            timeout-ms = <20>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -71,7 +113,7 @@
 
             bindings = <
 &kp ESC                   &kp Q  &kp W  &kp E     &kp R        &kp T           &kp Y        &kp U            &kp I         &kp O    &kp P          &kp LEFT_BRACKET
-&mt LEFT_SHIFT TAB        &kt A  &kp S  &kp D     &kp F        &kp G           &kp H        &kp J            &kp K         &kp L    &kp SEMICOLON  &mt RIGHT_SHIFT SQT
+&mt LEFT_SHIFT TAB        &kp A  &kp S  &kp D     &kp F        &kp G           &kp H        &kp J            &kp K         &kp L    &kp SEMICOLON  &mt RIGHT_SHIFT SQT
 &mt LEFT_CONTROL K_CMENU  &kp Z  &kp X  &kp C     &kp V        &kp B           &kp N        &kp M            &kp COMMA     &kp DOT  &kp FSLH       &mt RIGHT_CONTROL RIGHT_BRACKET
                                         &kp LGUI  &lt 1 SPACE  &kp LEFT_ALT    &lt 2 ENTER  &lt 1 BACKSPACE  &lt 3 DELETE
             >;
